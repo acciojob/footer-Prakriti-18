@@ -1,1 +1,55 @@
-/* your code here */
+footer{
+	background-color: black;
+	font-family: arial;
+	width: 100%;
+	height: 60vh;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.logo_name{
+	color: #F0EFEF;
+	font-size: 40px;
+	padding-left: 20px;
+}
+.media-icon{
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+}
+.link-boxes{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: 30px;
+	grid-row-gap: 12px;
+	grid-column-gap: 30px;
+}
+.grid{
+	text-decoration: none;
+}
+.grid-header{
+	font-size: 20px;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+	color: #F0EFEF;
+}
+.grid-details{
+	color: #CECECE;
+	font-size: 13px;
+}
+.bottom-details{
+	background-color: #4F4E4E;
+	margin-top: 63px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 30px;
+	font-size:15px;
+}
+.bottom-left{
+	color: #F0EFEF;
+}
+.bottom-right{
+	color: #CECECE;
+}
