@@ -18,29 +18,28 @@ footer{
 	display: flex;
 }
 .media-icon{
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	margin: 5px;
 }
 .link-boxes{
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	margin: 30px;
-	grid-row-gap: 12px;
-	grid-column-gap: 30px;
+	display: flex;
+	justify-content: space-around;
+	margin: 30px 30px;
 }
-.grid{
-	text-decoration: none;
-}
-.grid-header{
-	font-size: 20px;
+h3{
+	color: #F0EFEF;
 	text-decoration: underline;
 	text-underline-offset: 5px;
-	color: #F0EFEF;
 }
-.grid-details{
+.col1, .col2, .col3, .col4{
+	display: grid;
+	grid-row-gap: 5px;
+}
+a{
 	color: #CECECE;
 	font-size: 13px;
+	text-decoration: none;
 }
 .bottom-details{
 	background-color: #4F4E4E;
